@@ -6,7 +6,7 @@
     ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/localbin
     ```
 
-+ in the root folder of your redux clone (e.g. `~/repositories/redux/`) run:
++ in the root folder of your [Redux](https://github.com/rackt/redux) clone (e.g. `~/repositories/redux/`) run:
 
     ```
     gitbook pdf . docs/redux-documentation.pdf
