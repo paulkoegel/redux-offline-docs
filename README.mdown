@@ -2,11 +2,15 @@
 + install [Calibre](http://calibre-ebook.com/)
 + add it to your path:
 
+    ```
     ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/localbin
+    ```
 
 (cf. [https://github.com/GitbookIO/gitbook/issues/139](https://github.com/GitbookIO/gitbook/issues/139) or [http://help.gitbook.com/build/ebookconvert.html](http://help.gitbook.com/build/ebookconvert.html))
 + in the root folder of your redux clone (e.g. `~/repositories/redux/`) run:
 
+    ```
     gitbook pdf . docs/redux-documentation.pdf
     gitbook epub . docs/redux-documentation.epub
     gitbook mobi . docs/redux-documentation.mobi
+    ```
