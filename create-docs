@@ -1,0 +1,13 @@
+#!/bin/bash
+target='/Users/paul/p/redux-offline-docs'
+TODAY=$(date +"%Y-%m-%d")
+
+# delete previous versions
+rm $target/redux-documentation-*
+
+# create new versions
+formats=( pdf epub mobi)
+for format in "${formats[@]}"
+do
+  gitbook $format . $target/redux-documentation-$TODAY.$format
+done
