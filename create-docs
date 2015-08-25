@@ -6,7 +6,7 @@ TODAY=$(date +"%Y-%m-%d")
 rm $target/redux-documentation-*
 
 # create new versions
-formats=( pdf epub mobi)
+formats=(pdf epub mobi)
 for format in "${formats[@]}"
 do
   gitbook $format . $target/redux-documentation-$TODAY.$format
