@@ -5,6 +5,10 @@
     ```
     ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
     ```
++ Install gitbook using npm:
+  ```
+  $ npm install gitbook-cli -g
+  ```
 
 + in the root folder of your [Redux](https://github.com/rackt/redux) clone (e.g. `~/repositories/redux/`) run:
 
