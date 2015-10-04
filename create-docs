@@ -1,5 +1,5 @@
 #!/bin/bash
-target='/Users/paul/p/redux-offline-docs'
+target='$HOME/redux-offline-docs'
 TODAY=$(date +"%Y-%m-%d")
 
 # delete previous versions
