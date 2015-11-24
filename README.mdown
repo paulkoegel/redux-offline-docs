@@ -3,13 +3,18 @@
 + add it to your path:
 
     ```
-    ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
+    $ ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
     ```
++ install gitbook using npm:
+
+  ```
+  $ npm install gitbook-cli -g
+  ```
 
 + in the root folder of your [Redux](https://github.com/rackt/redux) clone (e.g. `~/repositories/redux/`), run:
 
     ```
-    gitbook pdf . docs/redux-documentation.pdf
-    gitbook epub . docs/redux-documentation.epub
-    gitbook mobi . docs/redux-documentation.mobi
+    $ gitbook pdf . docs/redux-documentation.pdf
+    $ gitbook epub . docs/redux-documentation.epub
+    $ gitbook mobi . docs/redux-documentation.mobi
     ```
