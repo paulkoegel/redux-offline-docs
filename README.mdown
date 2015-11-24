@@ -1,4 +1,10 @@
-### Create PDF, ePub, or MOBI [Redux](https://github.com/rackt/redux) documentation for offline reading
+### Download offline docs
+See file links above. Click on one, then click on the "Raw" tab, download should start automatically.
+(You cannot right-click-&-save a file in the file list.)
+
+---
+
+##### To create your own PDF, ePub, or MOBI versions of the [Redux](https://github.com/rackt/redux) documentation for offline reading
 + install [Calibre](http://calibre-ebook.com/)
 + add it to your path:
 
