@@ -24,3 +24,5 @@ See file links above. Click on one, then click on the "Raw" tab, download should
     $ gitbook epub . docs/redux-documentation.epub
     $ gitbook mobi . docs/redux-documentation.mobi
     ```
+
++ I use the [create-docs](https://github.com/paulkogel/redux-offline-docs/blob/master/create-docs) script from this repository and run it in a clone of the official [Redux repository](https://github.com/rackt/redux).
