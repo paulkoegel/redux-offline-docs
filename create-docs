@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# !!! this script is not meant to be run inside redux-offline-docs
+# !!! this script is NOT meant to be run inside redux-offline-docs
 # but inside a clone of https://github.com/reactjs/redux
 
-target='$HOME/redux-offline-docs'
+target="$HOME/redux-offline-docs"
 TODAY=$(date +"%Y-%m-%d")
 
 # delete previous versions
@@ -13,5 +13,5 @@ rm $target/redux-documentation-*
 formats=(pdf epub mobi)
 for format in "${formats[@]}"
 do
-  gitbook $format . $target/redux-documentation-$TODAY.$format
+  gitbook $format . $target/redux-documentation-$TODAY.$format -- log=debug --debug
 done
