@@ -17,7 +17,7 @@ See file links above. Click on one, then click on the "Raw" tab, download should
   $ npm install gitbook-cli -g
   ```
 
-+ in the root folder of your [Redux](https://github.com/rackt/redux) clone (e.g. `~/repositories/redux/`), run:
++ in the root folder of your [Redux](https://github.com/rackt/redux) clone (e.g. `~/repositories/redux/`, **NOT** a clone of this repository), EITHER run:
 
     ```
     $ gitbook pdf . docs/redux-documentation.pdf
@@ -25,4 +25,4 @@ See file links above. Click on one, then click on the "Raw" tab, download should
     $ gitbook mobi . docs/redux-documentation.mobi
     ```
 
-+ I use the [create-docs](https://github.com/paulkogel/redux-offline-docs/blob/master/create-docs) script from this repository and run it in a clone of the official [Redux repository](https://github.com/rackt/redux).
++ OR use the [create-docs](https://github.com/paulkogel/redux-offline-docs/blob/master/create-docs) script from this repository, copy it to a clone of the official [Redux repository](https://github.com/rackt/redux) and run it there.
