@@ -4,25 +4,32 @@ See file links above. Click on one, then click on the "Raw" tab, download should
 
 ---
 
-##### To create your own PDF, ePub, or MOBI versions of the [Redux](https://github.com/rackt/redux) documentation for offline reading
+##### To create your own PDF, ePub, or MOBI versions of the [Redux](https://github.com/reactjs/redux) documentation for offline reading
 + install [Calibre](http://calibre-ebook.com/)
 + add it to your path:
 
     ```
     $ ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
     ```
+
 + install gitbook using npm:
 
   ```
   $ npm install gitbook-cli -g
   ```
 
-+ in the root folder of your [Redux](https://github.com/rackt/redux) clone (e.g. `~/repositories/redux/`, **NOT** a clone of this repository), EITHER run:
++ clone the [Redux](https://github.com/reactjs/redux) repository to somewhere like `~/repositories/redux`.
+
++ then EITHER use the [create-docs](./create-docs) script from this repository:
+  - clone this repository to `~/repositories/redux-offline-docs`
+  - `cp ~/repositories/redux-offline-docs/create-docs ~/repositories/redux`
+  - `cd ~/repositories/redux/ && ./create-docs`
+  - the script assumes that the `redux` and `redux-offline-docs` folders are siblings. You'll need to adjust the path in `create-docs` if you have other folder locations.
+
++ OR run the following commands in `~/repositories/redux`:
 
     ```
     $ gitbook pdf . docs/redux-documentation.pdf
     $ gitbook epub . docs/redux-documentation.epub
     $ gitbook mobi . docs/redux-documentation.mobi
     ```
-
-+ OR use the [create-docs](https://github.com/paulkogel/redux-offline-docs/blob/master/create-docs) script from this repository, copy it to a clone of the official [Redux repository](https://github.com/rackt/redux) and run it there.

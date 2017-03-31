@@ -3,7 +3,7 @@
 # !!! this script is NOT meant to be run inside redux-offline-docs
 # but inside a clone of https://github.com/reactjs/redux
 
-target="$HOME/redux-offline-docs"
+target="../redux-offline-docs"
 TODAY=$(date +"%Y-%m-%d")
 
 # delete previous versions
