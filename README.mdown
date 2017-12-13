@@ -1,6 +1,8 @@
-### Download offline docs
-See file links above. Click on one, then click on the "Raw" tab, download should start automatically.
-(You cannot right-click-&-save a file in the file list.)
+### Direct Download Links
+
++ [Redux Documentation (PDF)](https://github.com/paulkoegel/redux-offline-docs/raw/master/redux-documentation-2017-12-13.pdf)
++ [Redux Documentation (ePub)](https://github.com/paulkoegel/redux-offline-docs/raw/master/redux-documentation-2017-12-13.epub)
++ [Redux Documentation (mobi)](https://github.com/paulkoegel/redux-offline-docs/raw/master/redux-documentation-2017-12-13.mobi)
 
 ---
 
