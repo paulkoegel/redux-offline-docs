@@ -6,7 +6,7 @@
 
 ---
 
-##### To create your own PDF, ePub, or MOBI versions of the [Redux](https://github.com/reactjs/redux) documentation for offline reading
+##### For advanced users: create your own PDF, ePub, or MOBI versions of the [Redux](https://github.com/reactjs/redux) documentation for offline reading
 + install [Calibre](http://calibre-ebook.com/)
 + add it to your path:
 
