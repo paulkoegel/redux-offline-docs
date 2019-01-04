@@ -1,7 +1,3 @@
-⚠️ **Unfortunately, I cannot update the docs anymore because of this issue with Gitbook: [#8](https://github.com/paulkoegel/redux-offline-docs/issues/8)**  
-The doc files have last been updated on **Dec 13, 2017.**
-
-
 ### Direct Download Links
 
 + [Redux Documentation (PDF)](https://github.com/paulkoegel/redux-offline-docs/raw/master/redux-documentation-2017-12-13.pdf)
