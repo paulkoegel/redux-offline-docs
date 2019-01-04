@@ -1,8 +1,8 @@
 ### Direct Download Links
 
-+ [Redux Documentation (PDF)](https://github.com/paulkoegel/redux-offline-docs/raw/master/redux-documentation-2017-12-13.pdf)
-+ [Redux Documentation (ePub)](https://github.com/paulkoegel/redux-offline-docs/raw/master/redux-documentation-2017-12-13.epub)
-+ [Redux Documentation (mobi)](https://github.com/paulkoegel/redux-offline-docs/raw/master/redux-documentation-2017-12-13.mobi)
++ [Redux Documentation (PDF)](https://github.com/paulkoegel/redux-offline-docs/raw/master/redux-documentation-2019-01-04.pdf)
++ [Redux Documentation (ePub)](https://github.com/paulkoegel/redux-offline-docs/raw/master/redux-documentation-2019-01-04.epub)
++ [Redux Documentation (mobi)](https://github.com/paulkoegel/redux-offline-docs/raw/master/redux-documentation-2019-01-04.mobi)
 
 ---
 
